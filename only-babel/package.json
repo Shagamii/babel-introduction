@@ -1,0 +1,10 @@
+{
+  "name": "webpack_sample",
+  "scripts": {
+    "build": "babel src -d output && node output/entry.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
